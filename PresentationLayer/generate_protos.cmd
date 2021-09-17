@@ -1,0 +1,1 @@
+.\node_modules\protoc\protoc\bin\protoc --plugin=protoc-gen-ng=%CD%/node_modules/.bin/protoc-gen-ng.cmd --ng_out=src/app/protos -I protos greet.proto

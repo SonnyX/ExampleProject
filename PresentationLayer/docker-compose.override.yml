@@ -1,0 +1,12 @@
+﻿version: '3.4'
+
+services:
+  presentation-layer:
+    ports:
+      - '4204:80'
+    networks:
+      - example
+
+networks:
+  example:
+    driver: bridge

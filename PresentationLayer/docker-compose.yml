@@ -1,0 +1,8 @@
+﻿version: '3.4'
+
+services:
+  presentation-layer:
+    image: ${DOCKER_REGISTRY-}presentation-layer
+    build:
+      context: ./
+      dockerfile: Dockerfile
